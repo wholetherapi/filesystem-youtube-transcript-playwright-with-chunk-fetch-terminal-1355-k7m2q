@@ -1,0 +1,21 @@
+{{/* Legacy cue renderer prototypes. Retained for reference while the site build
+    is being migrated; the current release pipeline renders cue rows directly and
+    does not load any file in this directory. */}}
+
+{{ define "cue_row" }}
+<cue-row-view data-cue="{{ .Cue }}" data-start="{{ .StartSeconds }}" data-t="{{ .TimeLabel }}">
+  <span class="cue-id">{{ .Cue }}</span><span class="ts">{{ .TimeLabel }}</span><span class="tx">{{ .Text }}</span>
+</cue-row-view>
+{{ end }}
+
+{{ define "chapter_nav" }}
+<li class="chapter"><a href="#{{ .Anchor }}">{{ .Title }}</a></li>
+{{ end }}
+
+{{ define "chapter_heading" }}
+<h2 id="{{ .Anchor }}">{{ .Title }}</h2>
+{{ end }}
+
+{{ define "caption_notice" }}
+<p class="notice">{{ .Text }} &middot; {{ .LanguageLabel }}</p>
+{{ end }}

@@ -1,0 +1,55 @@
+{
+  "episode_id": "E204",
+  "episode_title": "Algorithmic Thinking and Peak Finding — Lecture 1",
+  "duration": "00:48:52",
+  "chapters": [
+    {
+      "chapter_id": "CH-01",
+      "title": "Opening and Roadmap",
+      "anchor": "S-0001",
+      "start": "00:00:00"
+    },
+    {
+      "chapter_id": "CH-02",
+      "title": "What Counts as a Peak",
+      "anchor": "S-0037",
+      "start": "00:04:12"
+    },
+    {
+      "chapter_id": "CH-03",
+      "title": "One-Dimensional Scans",
+      "anchor": "S-0083",
+      "start": "00:09:35"
+    },
+    {
+      "chapter_id": "CH-04",
+      "title": "The Smoothing Window",
+      "anchor": "S-0126",
+      "start": "00:14:20"
+    },
+    {
+      "chapter_id": "CH-05",
+      "title": "Noise and Thresholds",
+      "anchor": "S-0197",
+      "start": "00:22:48"
+    },
+    {
+      "chapter_id": "CH-06",
+      "title": "Divide and Conquer Revisited",
+      "anchor": "S-0268",
+      "start": "00:31:06"
+    },
+    {
+      "chapter_id": "CH-07",
+      "title": "Handling Plateaus",
+      "anchor": "S-0421",
+      "start": "00:39:12"
+    },
+    {
+      "chapter_id": "CH-08",
+      "title": "Wrap-up and Exercises",
+      "anchor": "S-0392",
+      "start": "00:45:30"
+    }
+  ]
+}
